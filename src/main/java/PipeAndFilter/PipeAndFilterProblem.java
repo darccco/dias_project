@@ -31,9 +31,10 @@ public class PipeAndFilterProblem {
         scanner.useDelimiter(";");
 
 
-        while (scanner.hasNextLine()){
-            if (!scanner.equals(""))
-            System.out.println(pipe.runFilter(scanner.nextLine()));
+      while (scanner.hasNextLine()){
+            String line = pipe.runFilter(scanner.nextLine());
+            if (!line.equals(""))
+                System.out.println(line);
         }
     }
 }
