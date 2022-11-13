@@ -16,8 +16,8 @@ public class PipeAndFilterProblem {
         ToUpperCaseFilter toUpperCaseFilter=new ToUpperCaseFilter();
        // pipe.addFilter(toUpperCaseFilter);
 
-        takeDescription desc=new takeDescription();
-        addressFilter addr=new addressFilter();
+        DescriptionFilter desc=new DescriptionFilter();
+        AddressFilter addr=new AddressFilter();
 
 
         pipe.addFilter(addr);
