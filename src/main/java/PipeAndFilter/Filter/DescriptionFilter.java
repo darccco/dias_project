@@ -2,7 +2,7 @@ package PipeAndFilter.Filter;
 
 import PipeAndFilter.Filter.Filter;
 
-public class takeDescription implements Filter<String> {
+public class DescriptionFilter implements Filter<String> {
     @Override
     public String execute(String input) {
 
