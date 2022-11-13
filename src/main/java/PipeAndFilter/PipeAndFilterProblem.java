@@ -2,7 +2,7 @@ package PipeAndFilter;
 
 import PipeAndFilter.Filter.ToUpperCaseFilter;
 import PipeAndFilter.Filter.addressFilter;
-import PipeAndFilter.Filter.takeDescription;
+import PipeAndFilter.Filter.DescriptionFilter;
 import PipeAndFilter.Pipe.Pipe;
 
 import java.io.File;
