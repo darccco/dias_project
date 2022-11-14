@@ -1,7 +1,7 @@
 package PipeAndFilter;
 
 import PipeAndFilter.Filter.ToUpperCaseFilter;
-import PipeAndFilter.Filter.addressFilter;
+import PipeAndFilter.Filter.AddressFilter;
 import PipeAndFilter.Filter.DescriptionFilter;
 import PipeAndFilter.Pipe.Pipe;
 
